@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main_submit_1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- logo and the header -->
+      <header>
+        <div class="col-md-1">
+          <img class="title-logo" src="images/logo.png" alt="logo with letters V and T">
+        </div>
+        <div class="col-md-11 text-right">
+          <h1 class="title-main">Vinod Thimmapuram</h1>
+          <h4>FRONT END DEVELOPER</h4>
+        </div>
+      </header>
+
+      <!-- DIVIDER LINE -->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <!-- Portfolio image -->
+      <picture class="row col-md-12">
+        <source class="img-responsive" sizes="100vw" srcset="images/keepitsimple_small.jpg 498w, images/keepitsimple_large-800.jpg 800w, images/keepitsimple_medium.jpg 1000w, images/keepitsimple_large-1600.jpg 1655w" alt="keep it simple">
+        <img class="img-responsive" src="images/keepitsimple_large-1600.jpg" alt="keep it simple">
+      </picture>
+
+      <!-- HEADER FOR PROJECTS -->
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <h2 class="header-projects">Featured Projects</h2>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <section>
+        <div class="row text-center">
+          <article class="col-md-6">
+            <img class="img-responsive" src="images/project1.jpg" alt="project 1 pic" data-toggle="modal" data-target="#project1">
+            <div class="">
+              <h3 class="project-name">ONLINE RESUME PROJECT</h3>
+              <a href="https://github.com/udacity/Appify/">https://github.com/udacity/project#1/</a>
+            </div>
+          </article>
+          <article class="col-md-6">
+            <img class="img-responsive" src="images/project2.jpg" alt="project 2 pic" data-toggle="modal" data-target="#project2">
+            <div>
+              <h3 class="project-name">CLASSIC ARCADE GAME CLONE</h3>
+              <a href="https://github.com/udacity/Appify/">https://github.com/udacity/project#2/</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- BREAK/GAP-->
+        <br>
+
+        <div class="row text-center">
+          <article class="col-md-6">
+            <img class="img-responsive" src="images/project3.jpg" alt="project 3 pic" data-toggle="modal" data-target="#project3">
+            <div >
+              <h3 class="project-name">WEBSITE OPTIMIZATION</h3>
+              <a href="https://github.com/udacity/Appify/">https://github.com/udacity/project#3/</a>
+            </div>
+          </article>
+          <article class="col-md-6">
+            <img class="img-responsive" src="images/project4.jpg" alt="project 4 pic" data-toggle="modal" data-target="#project4">
+            <div>
+              <h3 class="project-name">NEIGHBOURHOOD MAP</h3>
+              <a href="https://github.com/udacity/Appify/">https://github.com/udacity/project#4/</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- DIVIDER LINE -->
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- BREAK -->
+      <br>
+
+      <footer>
+        <a href="mailto:tgvinodkumar@gmail.com?subject=Portfolio email" class="email-link">
+        <i class="fa fa-envelope" aria-hidden="true"></i> Email me </a>
+      </footer>
+
+    <!-- END CONTAINER -->
+    </div>
+
+
+    <!-- MODALS -->
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Online Resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/g/550/300" alt="project 1 picture">
+            I build this portfolio site as a part of my first project in the Udacity Front End Developer Nanodegree course. While building this portfolio site I learned how HTML is used to define the content of a web page and start to think of every web page as a number of boxes on the screen. Also I learned how to position those boxes and make them beautiful using CSS.
+            In my second project, Building an Online Resume, I learned XXXXXX...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Classic Arcade Game Clone</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/g/550/300" alt="project 2 picture">
+            This is my third project in Udacity Front End Developer Nanodegree course. This project helped me to implement the following concepts: XXXXXX...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Website Optimization</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/g/550/300" alt="project 3 picture">
+            This is my fourth project in Udacity Front End Developer Nanodegree course. This project helped me to implement the following concepts: XXXXXX...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="project4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Neighbourhood Maps</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/g/550/300" alt="project 4 picture">
+            This is my fifth project in Udacity Front End Developer Nanodegree course. This project helped me to implement the following concepts: XXXXXX...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
